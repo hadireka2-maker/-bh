@@ -1,0 +1,7 @@
+/* Placeholder stylesheet for global overrides.
+   This file ensures the <link rel="stylesheet" href="/index.css"> in index.html does not 404.
+   Add global CSS here if needed; Tailwind is loaded via CDN in index.html. */
+
+/* Example: tweak body smoothing on Windows */
+html, body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
